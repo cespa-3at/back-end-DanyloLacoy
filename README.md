@@ -62,7 +62,7 @@ Agora vamos criar o código que recebe os dados do site e entrega para o banco q
 
     javascript
 
-    ```
+   ```
 const express = require('express');
 const sqlite3 = require('sqlite3').verbose();
 const path = require('path');
@@ -100,7 +100,7 @@ app.listen(3000, () => {
     console.log("------------------------------------------");
 });
 
-    ```
+ ```
 ---
 
 Passo 3: Criar o Formulário (A Interface)
